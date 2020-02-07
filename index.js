@@ -7,7 +7,7 @@ window.onload = function () {
     if (e.origin !== "http://localhost:4200")
       return;
 
-    messageEle.innerHTML = "Message Received: " + e.data;
+    messageEle.innerHTML = "Mensaje Resibido " + e.data;
   }
   window.addEventListener('message', receiveMessage);
 }
